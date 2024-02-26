@@ -1,6 +1,5 @@
 export default function Saybrook() {
-    return (
-        `
+  return `
         <section>
         <video muted data-autoplay src="saybrook.webm"></video>
         </section>
@@ -11,6 +10,5 @@ export default function Saybrook() {
                 <img src="depth_basic_sum.gif" alt="Saybrook_Animation" style="width: 50%; height: auto;">
             </div>
             <p style="font-size: 12px;">Source: <a href="https://openplains.com">OpenPlains</a></p>
-        </section>`
-    )
+        </section>`;
 }

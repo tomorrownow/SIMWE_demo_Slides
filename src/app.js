@@ -9,20 +9,20 @@ import Cesium3D from './slides/Cesium3D';
 import DataFusion from './slides/DataFusion';
 import RegionalScale from './slides/RegionalScale';
 
-let slidesElement = document.getElementById('slides'); 
+let slidesElement = document.getElementById('slides');
 let slides = [
-   Intro(),
-   RegionalScale(),,
-   HighResDanaRd(),
-   SMCInclusion(),
-   Hydrograph(),
-   DataFusion(),
-   Saybrook(),
-   Cesium3D()
-]
+  Intro(),
+  RegionalScale(),
+  HighResDanaRd(),
+  SMCInclusion(),
+  Hydrograph(),
+  DataFusion(),
+  Saybrook(),
+  Cesium3D(),
+];
 slidesElement.insertAdjacentHTML('beforeend', slides.join(' '));
 
 let deck = new Reveal({
-   plugins: [ Markdown ]
-})
-deck.initialize({view: 'scroll'});
+  plugins: [Markdown],
+});
+deck.initialize({ view: 'scroll' });

@@ -1,6 +1,5 @@
 export default function SMCInclusion() {
-    return (
-        `<section>
+  return `<section>
             <h4>Stormwater Control Measures</h4>
             <h5>100 year flood event</h5>
             <ul style="font-size: 15px;">
@@ -12,6 +11,5 @@ export default function SMCInclusion() {
             </ul>
             <img src="3m-carved-vs-uncarved_naip_3in_min_depth.gif" alt="Depth of water over the landscape" style="width: 100%; height: auto;">
             <p style="font-size: 12px;">Source: <a href="https://openplains.com">OpenPlains</a></p>
-        </section>`
-    )
+        </section>`;
 }

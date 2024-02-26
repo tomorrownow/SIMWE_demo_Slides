@@ -1,4 +1,4 @@
 export default {
-    // config options
-    "base": "/SIMWE_demo_Slides/",
-  }
+  // config options
+  base: '/SIMWE_demo_Slides/',
+};

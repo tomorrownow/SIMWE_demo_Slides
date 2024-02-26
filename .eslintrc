@@ -1,8 +1,12 @@
 {
-    "plugins": [
-      "import"
-    ],
-    "rules": {
-      "import/no-default-export": "error"
-    }
+  "plugins": ["import"],
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
   }
+}
