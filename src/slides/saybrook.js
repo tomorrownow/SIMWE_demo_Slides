@@ -1,6 +1,10 @@
 export default function Saybrook() {
     return (
-        `<section>
+        `
+        <section>
+        <video muted data-autoplay src="saybrook.webm"></video>
+        </section>
+        <section>
             <h3>Case Study</h3>
             <div style="display: flex;">
                 <img src="saybrook.png" alt="Saybrook" style="width: 50%; height: auto;">

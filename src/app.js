@@ -5,6 +5,8 @@ import HighResDanaRd from './slides/high-res-dana-rd';
 import SMCInclusion from './slides/smc_inclusion';
 import Hydrograph from './slides/hydrograph';
 import Saybrook from './slides/saybrook';
+import Cesium3D from './slides/Cesium3D';
+import DataFusion from './slides/DataFusion';
 
 let slidesElement = document.getElementById('slides'); 
 let slides = [
@@ -12,7 +14,9 @@ let slides = [
    HighResDanaRd(),
    SMCInclusion(),
    Hydrograph(),
-   Saybrook()
+   DataFusion(),
+   Saybrook(),
+   Cesium3D()
 ]
 slidesElement.insertAdjacentHTML('beforeend', slides.join(' '));
 
