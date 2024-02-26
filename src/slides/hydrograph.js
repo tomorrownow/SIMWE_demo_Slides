@@ -6,6 +6,7 @@ export default function SMCInclusion() {
             <p style="font-size: 16px;">
             The decrease in depth could be casued by pooling water overflowing, by an annomily in the data, or error modeling process. Further investigation is still needed to determine the root cause.
             </p>
+            <p style="font-size: 12px;">Source: <a href="https://openplains.com">OpenPlains</a></p>
         </section>`
     )
 }

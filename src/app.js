@@ -7,10 +7,12 @@ import Hydrograph from './slides/hydrograph';
 import Saybrook from './slides/saybrook';
 import Cesium3D from './slides/Cesium3D';
 import DataFusion from './slides/DataFusion';
+import RegionalScale from './slides/RegionalScale';
 
 let slidesElement = document.getElementById('slides'); 
 let slides = [
    Intro(),
+   RegionalScale(),,
    HighResDanaRd(),
    SMCInclusion(),
    Hydrograph(),
